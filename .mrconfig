@@ -1,0 +1,11 @@
+[DEFAULT]
+git_gc = git gc "$@"
+vcsh_gc = vcsh run "$@" git gc
+jobs = 5
+
+lib = 
+	is_kandre(){
+		test "$(whoami)" = "kandre"
+	}
+
+include = cat ~/.config/mr/config.d/*
