@@ -1,2 +1,2 @@
 [$HOME/.config/vcsh/repo.d/screenrc.git]
-checkout = vcsh clone git@github.com:kanja/screenrc.git screenrc
+checkout = vcsh clone -b main git@github.com:kanja22/screenrc.git screenrc
